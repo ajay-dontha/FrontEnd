@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Forms</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<style>
+
+</style>
+
+<body>
+    <form>
+        <label for="FirstName">Full Name</label>
+        <input type="text" id="fstname" name="fstname" placeholder="Enter FullName">
+        <br>
+        <label for="Password">Password</label>
+        <input type="password" id="psdwd" placeholder="Enter Password">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter Email">
+        <br>
+
+        <input type="radio" id="male" value="male" name="male">
+        <label for="radio">male</label>
+
+        <input type="radio" id="female" value="female" name="female" checked>
+        <label for="radio">female</label>
+        <br>
+        <label for="">Address line 1</label>
+        <textarea name="address" id="adress" cols="10" rows="5"></textarea>
+        <label for="">Address line 2</label>
+        <textarea name="address" id="adress" cols="10" rows="5"></textarea>
+        <br>
+        <label for="">Region</label>
+        <!--dropdown-->
+        <select name="countries" id="countries">
+            <option value="select" disabled>--Select--</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select>
+        <br>
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date">
+        <br>
+        <label for="mobilenumber">MobileNumber</label>
+        <input type="number">
+        <br>
+        <label for="color">Color</label>
+        <input type="color">
+
+        <br>
+        <label for="price">Price Range</label>
+        <input type="range">
+        <br>
+        <input type="file">
+        <br>
+        <button name="btn" id="btn">Submit</button>
+    </form>
+</body>
+
+</html>
